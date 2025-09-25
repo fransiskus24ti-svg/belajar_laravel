@@ -10,7 +10,7 @@ Route::get('/matakuliah/show/{id?}', [MatakuliahController::class, 'show']);
 Route::get('/mahasiswa/{Frans}',[MahasiswaController::class, 'show']);
 
 Route::get('/pcr', function () {
-    return 'pcr bbbbbb dah';
+    return 'pcr bbbbbbhhhh dah';
 });
 
 Route::get('/mahasiswa', function () {
