@@ -11,13 +11,7 @@ Route::get('/matakuliah/show/{id?}', [MatakuliahController::class, 'show']);
 
 Route::get('/mahasiswa/{Frans}',[MahasiswaController::class, 'show']);
 
-Route::get('/pcr', function () {
-<<<<<<< HEAD
-    return 'pcr bbbbbbhhhh dah';
-=======
-    return 'pcr bbbbhhhbb dah';
->>>>>>> a9adf54f926f262a6cf07c316c49bb69aed6e9d2
-});
+
 
 Route::get('/mahasiswa', function () {
     return 'hello mahasiswa';

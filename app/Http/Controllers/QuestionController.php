@@ -28,6 +28,14 @@ class QuestionController extends Controller
     public function store(Request $request)
     {
         dd($request->all());
+
+        $data['nama'] = $request->nama;
+        $data['nama'] = $request->email;
+        $data['nama'] = $request->pertanyaan;
+
+        return view ('home-question-respon', $data);
+        
+
     }
 
     /**
