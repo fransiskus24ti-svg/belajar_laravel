@@ -8,6 +8,6 @@
         <h1>
             selamat datang
         </h1>
-        <p>ini halaman detail akuuu</p>
+        <p>ini halaman detail aku</p>
     </body>
 </html>
